@@ -1,0 +1,200 @@
+a{
+  text-decoration: none;
+}
+body{
+  margin: 0px;
+  background:linear-gradient(to bottom,#898aa6,#c9bbcf);
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  position:fixed;
+  z-index:1;
+  height: 82px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background:linear-gradient(to bottom,black,transparent);
+  opacity: 0.5;
+}
+.navbar-brand{
+  left:15px;
+  top:15px;
+  position: fixed;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  /*position:absolute;*/
+}
+.navbar-nav{
+  /*position: absolute;*/
+  top: 15px;
+  position: fixed;
+  z-index: 1;
+  color: white;
+  right:50px;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.tab{
+  position: absolute;
+  top:220px;
+  left:150px;
+  padding-bottom: 500px;
+}
+button{
+  border:none;
+  background: none;
+}
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: green;
+  padding: 10px 20px 10px 10px;
+  text-decoration: none;
+  top:-10px;
+  right:-800px;
+  position:relative;
+}
+
+.btn:hover {
+  background: darkgreen;
+  text-decoration: none;
+}
+.tick{
+  padding-left: 20px;
+  fill:green;
+}
+.wrong{
+  padding-left: 20px;
+  fill: red;
+}
+.wrong:hover{
+  fill:darkred;
+}
+.tick:hover{
+  fill:darkgreen;
+}
+.navbar a {
+  float: left;
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.btn1 {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+  background: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn1:hover {
+  background: white;
+  color: black;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+
+  border: none;
+  outline: none;
+  color: white;
+  font-size: inherit;
+
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  opacity: 60%;
+  min-width: 160px;
+  font-size:15px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: inherit;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: darkgrey;
+  color:black;
+  font-weight: bold;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.images{
+  height:250px;
+  border-radius: 200%;
+  padding-bottom: 20px;
+
+}
+.stud_tab{
+  color: white;
+  position: absolute;
+  left:300px;
+  top:20px;
+}
+.prev{
+  font-family: inherit;
+  color:white;
+  position: relative;
+  top:150px;
+  left:350px;
+
+}
+.prev_table{
+  color: white;
+  position: absolute;
+    left:300px;
+    top:540px;
+    padding-bottom: 400px;
+
+}
